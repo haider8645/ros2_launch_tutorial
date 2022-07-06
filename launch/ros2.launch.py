@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution
 from launch.actions import OpaqueFunction, DeclareLaunchArgument 
-from launch.substitutions import Command, FindExecutable, PathJoinSubstitution, LaunchConfiguration
+from launch.substitutions import Command, FindExecutable, LaunchConfiguration
 from launch.conditions import IfCondition  
 
 #Helper function to read a yaml config file
